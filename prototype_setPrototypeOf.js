@@ -48,6 +48,7 @@
           state : 0
       };
     let todoList = Object.setPrototypeOf(todolistProp,todoPrototype);
+      debugger;
     replaceList(todoList,todoList.getState());
 
      var addbuttonDom = document.querySelector("#addBtn");

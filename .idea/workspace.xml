@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8faaac0c-e660-4a8a-908d-b5fd4a575ee9" name="Default" comment="" />
+    <list default="true" id="8faaac0c-e660-4a8a-908d-b5fd4a575ee9" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/prototype_class.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prototype_createObject.js" afterPath="$PROJECT_DIR$/prototype_createObject.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prototype_new.js" afterPath="$PROJECT_DIR$/prototype_new.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prototype_setPrototypeOf.js" afterPath="$PROJECT_DIR$/prototype_setPrototypeOf.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todolist.html" afterPath="$PROJECT_DIR$/todolist.html" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -18,11 +26,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="todolist.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="todolist.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/todolist.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="509">
-              <caret line="52" column="12" lean-forward="true" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
+            <state relative-caret-position="539">
+              <caret line="57" column="2" lean-forward="false" selection-start-line="57" selection-start-column="2" selection-end-line="57" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -31,10 +39,10 @@
       <file leaf-file-name="prototype_new.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/prototype_new.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="638">
-              <caret line="115" column="4" lean-forward="false" selection-start-line="115" selection-start-column="4" selection-end-line="115" selection-end-column="11" />
+            <state relative-caret-position="548">
+              <caret line="55" column="4" lean-forward="false" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="4" />
               <folding>
-                <marker date="1489594770000" expanded="true" signature="2342:2371" ph="..." />
+                <marker date="1489629074000" expanded="true" signature="2355:2384" ph="..." />
               </folding>
             </state>
           </provider>
@@ -43,22 +51,34 @@
       <file leaf-file-name="prototype_setPrototypeOf.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/prototype_setPrototypeOf.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="87" column="0" lean-forward="false" selection-start-line="87" selection-start-column="0" selection-end-line="110" selection-end-column="3" />
+            <state relative-caret-position="390">
+              <caret line="53" column="58" lean-forward="true" selection-start-line="53" selection-start-column="58" selection-end-line="53" selection-end-column="58" />
               <folding>
-                <marker date="1489594399000" expanded="true" signature="2340:2369" ph="..." />
+                <marker date="1489629084000" expanded="true" signature="2356:2385" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="prototype_createObject.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="prototype_createObject.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/prototype_createObject.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1845">
-              <caret line="123" column="0" lean-forward="false" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
+            <state relative-caret-position="293">
+              <caret line="43" column="35" lean-forward="true" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
               <folding>
-                <marker date="1489594794000" expanded="true" signature="2587:2616" ph="..." />
+                <marker date="1489629047000" expanded="true" signature="2601:2630" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="prototype_class.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/prototype_class.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-352">
+              <caret line="59" column="13" lean-forward="false" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
+              <folding>
+                <marker date="1489628822000" expanded="true" signature="1893:1922" ph="..." />
               </folding>
             </state>
           </provider>
@@ -66,13 +86,17 @@
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/prototype_exp01.js" />
-        <option value="$PROJECT_DIR$/prototype_setPrototypeOf.js" />
-        <option value="$PROJECT_DIR$/prototype_new.js" />
+        <option value="$PROJECT_DIR$/prototype_class.js" />
         <option value="$PROJECT_DIR$/prototype_createObject.js" />
+        <option value="$PROJECT_DIR$/prototype_new.js" />
+        <option value="$PROJECT_DIR$/prototype_setPrototypeOf.js" />
         <option value="$PROJECT_DIR$/todolist.html" />
       </list>
     </option>
@@ -90,8 +114,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="423" />
-    <option name="y" value="172" />
+    <option name="x" value="1" />
+    <option name="y" value="23" />
     <option name="width" value="1680" />
     <option name="height" value="980" />
   </component>
@@ -144,7 +168,10 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.todolist.html">
+    <configuration default="false" name="todolist.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/todolist/todolist.html">
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
     </configuration>
@@ -204,6 +231,14 @@
       <recursive>false</recursive>
       <method />
     </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.todolist.html" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.todolist.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -217,20 +252,21 @@
       <updated>1489572103398</updated>
       <workItem from="1489572105550" duration="5118000" />
       <workItem from="1489591278023" duration="2597000" />
+      <workItem from="1489628428643" duration="922000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7715000" />
+    <option name="totallyTimeSpent" value="8637000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="423" y="172" width="1680" height="980" extended-state="0" />
+    <frame x="1" y="23" width="1680" height="980" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17118746" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -258,6 +294,44 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/todolist.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="52" column="12" lean-forward="true" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prototype_new.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1725">
+          <caret line="115" column="4" lean-forward="false" selection-start-line="115" selection-start-column="4" selection-end-line="115" selection-end-column="11" />
+          <folding>
+            <marker date="1489629074000" expanded="true" signature="2355:2384" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prototype_setPrototypeOf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1305">
+          <caret line="87" column="0" lean-forward="false" selection-start-line="87" selection-start-column="0" selection-end-line="110" selection-end-column="3" />
+          <folding>
+            <marker date="1489629084000" expanded="true" signature="2356:2385" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prototype_createObject.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1489629047000" expanded="true" signature="2601:2630" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todolist.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding />
@@ -269,7 +343,7 @@
         <state relative-caret-position="1800">
           <caret line="120" column="0" lean-forward="false" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
           <folding>
-            <marker date="1489594770000" expanded="true" signature="2342:2371" ph="..." />
+            <marker date="1489629074000" expanded="true" signature="2355:2384" ph="..." />
           </folding>
         </state>
       </provider>
@@ -279,7 +353,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1489594399000" expanded="true" signature="2340:2369" ph="..." />
+            <marker date="1489629084000" expanded="true" signature="2356:2385" ph="..." />
           </folding>
         </state>
       </provider>
@@ -289,46 +363,56 @@
         <state relative-caret-position="1965">
           <caret line="131" column="0" lean-forward="false" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
           <folding>
-            <marker date="1489594794000" expanded="true" signature="2587:2616" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/todolist.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="509">
-          <caret line="52" column="12" lean-forward="true" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prototype_setPrototypeOf.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="87" column="0" lean-forward="false" selection-start-line="87" selection-start-column="0" selection-end-line="110" selection-end-column="3" />
-          <folding>
-            <marker date="1489594399000" expanded="true" signature="2340:2369" ph="..." />
+            <marker date="1489629047000" expanded="true" signature="2601:2630" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/prototype_new.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="115" column="4" lean-forward="false" selection-start-line="115" selection-start-column="4" selection-end-line="115" selection-end-column="11" />
+        <state relative-caret-position="548">
+          <caret line="55" column="4" lean-forward="false" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="4" />
           <folding>
-            <marker date="1489594770000" expanded="true" signature="2342:2371" ph="..." />
+            <marker date="1489629074000" expanded="true" signature="2355:2384" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prototype_class.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-352">
+          <caret line="59" column="13" lean-forward="false" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
+          <folding>
+            <marker date="1489628822000" expanded="true" signature="1893:1922" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/prototype_createObject.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1845">
-          <caret line="123" column="0" lean-forward="false" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
+        <state relative-caret-position="293">
+          <caret line="43" column="35" lean-forward="true" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
           <folding>
-            <marker date="1489594794000" expanded="true" signature="2587:2616" ph="..." />
+            <marker date="1489629047000" expanded="true" signature="2601:2630" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prototype_setPrototypeOf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="53" column="58" lean-forward="true" selection-start-line="53" selection-start-column="58" selection-end-line="53" selection-end-column="58" />
+          <folding>
+            <marker date="1489629084000" expanded="true" signature="2356:2385" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todolist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="57" column="2" lean-forward="false" selection-start-line="57" selection-start-column="2" selection-end-line="57" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -58,6 +58,7 @@
           state : 0
       };
     let todoList = makeObject(todolistProp,todoPrototype);
+    debugger;
     console.log(todoList);
 
     replaceList(todoList,todoList.getState());

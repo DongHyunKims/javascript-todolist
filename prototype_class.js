@@ -7,53 +7,61 @@
 //   this.date = date;
 // }
 (function(){
-    function Todolist(todoKey, tasks, state){
-        this.todoKey = todoKey === undefined ? 0 : todoKey;
-        this.tasks = tasks;
-        this.state = state === undefined ?  0 : state;
+    class Todolist{
+
+        constructor(){
+            this.todoKey = 0;
+            this.tasks =[];
+            this.state = 0;
+
+        }
+
+        getTodolist(){
+        return this.tasks;
+        }
+        getState(){
+        return this.state;
+        }
+        setState(state){
+        this.state = state;
+        }
+        addTodolist(task){
+        if(task === "") return this.tasks;
+        return this.tasks.push(task);
+        }
+        deleteTodolist(task){
+        if(this.tasks.indexOf(task) < 0){
+            return this.tasks;
+        }
+        return this.tasks.splice(this.tasks.indexOf(task),1);
+        }
+        completeTodolist(){
+        if(this.state === 0){
+            return this.state = 1;
+        }else{
+            return this.state = 0;
+        }
+        }
+
+
     }
 
 
-  Todolist.prototype.getTodolist = function(){
-    return this.tasks;
-  };
 
-  Todolist.prototype.getState = function(){
-    return this.state;
-  };
-
-
-  Todolist.prototype.setState = function(state){
-    this.state = state;
-  };
-
-
-  Todolist.prototype.addTodolist = function(task){
-    if(task === "") return this.tasks;
-    return this.tasks.push(task);
-  };
-
-
-  Todolist.prototype.deleteTodolist = function(task){
-    if(this.tasks.indexOf(task) < 0){
-      return this.tasks;
-    }
-    return this.tasks.splice(this.tasks.indexOf(task),1);
-  };
-
-  Todolist.prototype.completeTodolist = function(){
-    if(this.state === 0){
-        return this.state = 1;
-    }else{
-        return this.state = 0;
-    }
-  };
 
 
   function init(){
-    let todoList = new Todolist(undefined,[],undefined);
-    replaceList(todoList,todoList.getState());
+
+
+
+
+
+    let todoList = new Todolist();
     debugger;
+    console.log(todoList);
+
+    replaceList(todoList,todoList.getState());
+
      var addbuttonDom = document.querySelector("#addBtn");
      addbuttonDom.addEventListener('click',addTaskHandler.bind(null,todoList));
 
@@ -66,27 +74,30 @@
   }
 
 
-
     function replaceList(todoList,state){
+
         let tasks = todoList.getTodolist();
 
         let task = document.querySelector('#task').value;
+
+        document.getElementById("task").value = "";
+        let liStringLine = "<li class='list-group-item list-group-item-info' style='text-decoration: line-through'>";
+        let liString ="<li class='list-group-item list-group-item-info'>";
         let template = document.querySelector('#todoListTemplate');
         let todoListTemplate = template.innerText;
         todoListTemplate = todoListTemplate.replace("{complete}", state === 0 ||  tasks.indexOf(task) < 0 ? "Not complete!!!" : "Complete" );
 
         if(tasks.length !== 0){
             todoListTemplate = todoListTemplate.replace("{todoList}", tasks.map(function (val) {
-                return (state === 1 && val === task ?  "<li class='list-group-item list-group-item-info' style='text-decoration: line-through'>"  : "<li class='list-group-item list-group-item-info'>") +  val + "</li>";
+                return (state === 1 && val === task ?  liStringLine  : liString)  +  val + "</li>";
             }).join(""));
         }else{
             todoListTemplate = "";
         }
 
-
         var contentDom = document.querySelector(".todolist");
         contentDom.innerHTML = todoListTemplate;
-     }
+    }
 
     function addTaskHandler(todoList){
         let task = document.querySelector('#task').value;
